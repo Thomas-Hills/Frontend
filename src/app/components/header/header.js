@@ -111,9 +111,10 @@ const Header = () => {
                 </nav>
             </div>
 
+            {/*Create the links to the pages for the icons */}
             <div className={styles.right}>
-                <IconCart className={styles.iconCart}/>
                 <IconSearch className={styles.iconSearch}/>
+                <IconCart className={styles.iconCart}/>
                 <IconWishlist className={styles.iconWishlist}/>
                 <IconProfile className={styles.iconProfile}/>
             </div>
