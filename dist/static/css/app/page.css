@@ -160,6 +160,75 @@
 }
 
 
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/homepage/section 3/section3.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.section3_sectionContainer__NbvTB {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    padding-top: 0px;
+    background-color: white;
+}
+
+.section3_left__7c7ic {
+    flex: 1;
+    background-color: #E3E7E0;
+    padding: 0px;
+    width: 50%;
+    max-width: 640px;
+
+    display: flex;
+}
+
+.section3_right__pCgHt {
+    padding: 50px;
+    padding-top: 70px;
+    width: 50%;
+    max-width: 640px;
+    flex: 1;
+    background-color: #F8FBF6;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.section3_right__pCgHt P{
+font-size: 17px;
+color: #656565;
+margin-top: 20px;
+
+
+}
+
+.section3_right__pCgHt h1 {
+font-size: 28px;
+font-weight: 0px;
+}
+
+.section3_left__7c7ic img {
+  
+}
+
+
+.section3_lastp__wnEUa {
+    padding-bottom: 20px;
+}
+
+.section3_sec3Button__NTU5R {
+    position: absolute;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section3_sec3Button__NTU5R:hover {
+    background-color: #F5E9E9;
+    color: black;
+}
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/homepage/section1/section1.module.css ***!
   \*****************************************************************************************************************************************************************************************************************************************************************************************/
@@ -172,6 +241,7 @@
 }
 
 .section1_left__U6ZyU {
+    flex: 1;
     width: 50%;
     max-width: 640px;
     padding: 20px;
@@ -180,6 +250,7 @@
 }
 
 .section1_right__QKF9r {
+    flex: 1;
     width: 50%;
     max-width: 640px;
     height: 300px;
@@ -256,18 +327,23 @@
     justify-content: space-between;
     padding: 20px;
     background-color: white;
+    padding-top: 41px;
+    padding-bottom: 41px;
 }
 
 .section2_section__r2VKx {
     text-align: center;
     max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section2_icon__OfLuA {
     width: 25px;
     height: 25px;
     margin-bottom: 10px;
-    margin-left: 85px;
+    
 }
 
 .section2_title__MG_3D {
