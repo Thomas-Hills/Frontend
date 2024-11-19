@@ -358,3 +358,113 @@ font-weight: 0px;
 }
 
 
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/homepage/section4/section4.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.section4_sectionContainer__acpJt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.section4_message__AmhRh p {
+
+}
+
+.section4_one__vahfK {
+font-size: 20px;
+}
+
+.section4_two__hbLnh {
+    font-size: 18px;
+    font-style: italic;
+}
+
+
+
+.section4_carouselContainer__MVhEs {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px;
+    padding-top: 20px;
+  }
+  
+  .section4_carouselTrack__FFw53 {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .section4_carouselItems__Wh7kw {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .section4_carouselItem__L9_Rt {
+    flex: 0 0 25%;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    position: relative;
+  }
+  
+  .section4_imageContainer__cScwS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section4_textContainer__2dlvG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section4_categoryImage__wdaHZ {
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .section4_carouselItem__L9_Rt p {
+    padding-top: 10px;
+    margin: 0;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .section4_arrowLeft__LMLwH,
+  .section4_arrowRight__OTvbs {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: none;
+    color: #ddc5c5;
+  }
+  
+  .section4_arrowLeft__LMLwH {
+    left: 5px;
+  }
+  
+  .section4_arrowRight__OTvbs {
+    right: 5px;
+  }
+
+
