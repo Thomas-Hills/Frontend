@@ -9,6 +9,7 @@ import IconWishlist from './iconWishlist'
 import IconProfile from './iconProfile'
 
 
+
 const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
     const [isDropdownHovered, setIsDropdownHovered] = useState(false);
@@ -44,7 +45,9 @@ const Header = () => {
     return (
         <header className={styles.header}>
             <div className={styles.left}>
-                <h1 className={styles.logo}>Vitality</h1>
+            <Link href="/">
+                    <h1 className={styles.logo}>Vitality</h1>
+                </Link>
             </div>
 
             <div className={styles.middle}>
@@ -104,7 +107,7 @@ const Header = () => {
                                 </div>
                             )}
                         </li>
-                        <li className={styles.menuItem}><Link href="/about">About Us</Link></li>
+                        <li className={styles.menuItem}><Link href="/aboutUs">About Us</Link></li>
                         <li className={styles.menuItem}><Link href="/contact">Contact</Link></li>
                         <li className={styles.menuItem}><Link href="/quiz">Quiz</Link></li>
                     </ul>

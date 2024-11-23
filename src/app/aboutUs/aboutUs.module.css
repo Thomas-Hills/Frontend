@@ -1,0 +1,62 @@
+
+
+.aboutus {
+    display:grid;
+    background-color: #F5E9E9;
+    color: #585858;
+    padding: 50px 20px;
+    margin: 50px auto; 
+    width: 90%;
+    height: 20vh;
+    align-items: center;
+    text-align: center;
+}
+
+
+.ourstory img, .mission img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.ourstoryBar {
+    display: flex;
+    background-color: #fdfdfd;
+    color: #767676;
+    border-radius: 0px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    margin: 30px 70px ; 
+    gap: 25rem;
+    width: 70%;
+    text-align: left;
+}
+
+.quoteBar {
+    display:grid;
+    background-color: #F5E9E9;
+    color: #585858;
+    padding: 20px 40px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    margin: 50px auto; 
+    width: 70%;
+    height: 35vh;
+    align-items: center;
+    text-align: center;
+}
+
+.missionBar {
+    display: flex;
+    background-color: #fdfdfd;
+    color: #767676;
+    border-radius: 0px;
+    margin-bottom: 50px;
+    margin-left: 70%;
+    margin: 20px 80px ; 
+    gap: 35rem;
+    width: 80%;
+    align-items: center;
+    text-align: left;
+}
+
+

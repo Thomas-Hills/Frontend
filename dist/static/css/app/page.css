@@ -177,7 +177,6 @@
     padding: 0px;
     width: 50%;
     max-width: 640px;
-
     display: flex;
 }
 
@@ -202,7 +201,7 @@ margin-top: 20px;
 }
 
 .section3_right__pCgHt h1 {
-font-size: 28px;
+font-size: 24px;
 font-weight: 0px;
 }
 
@@ -228,6 +227,180 @@ font-weight: 0px;
 .section3_sec3Button__NTU5R:hover {
     background-color: #F5E9E9;
     color: black;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/homepage/section 5/section5.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************/
+.section5_sectionContainer___0KEV {
+
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+
+
+.section5_left__tV6Oy {
+    flex:1 ;
+    background-color: #E3E7E0;
+    padding: 50px;
+    width: 30%;
+}
+
+
+.section5_right__vPN8K {
+    flex: 2;
+    background-color: #F8FBF6;
+    flex-direction: row;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px;
+    
+
+
+}
+
+
+.section5_heading1__WYKpn {
+    font-size: 24px;
+
+}
+
+
+.section5_heading2__10tpB {
+    font-size: 20px;
+    font-style: italic;
+    padding-bottom: 20px;
+
+}
+
+
+.section5_left__tV6Oy p {
+    font-size: 17px;
+    color: #656565;
+
+}
+
+.section5_p1__qchj4 {
+    padding-bottom: 5px;
+}
+
+.section5_p2__E9lV6 {
+    padding-bottom: 25px;
+}
+
+.section5_left__tV6Oy button {
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+
+.section5_left__tV6Oy button:hover {
+    background-color: #F5E9E9;
+    color: black;
+
+}
+
+
+.section5_mini__Xmglc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    flex: 1 1 auto;
+    min-width: 100px;
+    max-width: 200px;
+    
+    
+
+}
+
+
+.section5_steps__H7ih4 {
+    font-size: 18px;
+    
+
+}
+
+
+.section5_stepsImage__L1A7k {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    
+    
+
+   
+
+}
+
+
+
+.section5_stepsButton__m6AnO {
+    
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.section5_stepsButton__m6AnO:hover {
+
+    background-color: #F5E9E9;
+    color: black;
+}
+
+.section5_product__zbS8u {
+    color: #a87878;
+}
+
+
+@media (max-width: 800px) {
+    .section5_sectionContainer___0KEV {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .section5_left__tV6Oy,
+    .section5_right__vPN8K {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .section5_heading1__WYKpn {
+        font-size: 20px;
+    }
+
+    .section5_heading2__10tpB {
+        font-size: 18px;
+    }
+
+    .section5_left__tV6Oy p {
+        font-size: 15px;
+    } 
+
+    .section5_mini__Xmglc {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .section5_stepsImage__L1A7k {
+        width: 150px;
+        height: 150px;
+    }
 }
 /*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/homepage/section1/section1.module.css ***!
@@ -367,7 +540,7 @@ font-weight: 0px;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 
 .section4_message__AmhRh p {
@@ -375,7 +548,7 @@ font-weight: 0px;
 }
 
 .section4_one__vahfK {
-font-size: 20px;
+font-size: 24px;
 }
 
 .section4_two__hbLnh {

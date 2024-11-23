@@ -12,7 +12,6 @@
     padding: 0px;
     width: 50%;
     max-width: 640px;
-
     display: flex;
 }
 
@@ -37,7 +36,7 @@ margin-top: 20px;
 }
 
 .right h1 {
-font-size: 28px;
+font-size: 24px;
 font-weight: 0px;
 }
 
