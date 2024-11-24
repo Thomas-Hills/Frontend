@@ -641,3 +641,90 @@ font-size: 24px;
   }
 
 
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./src/app/homepage/section6/section6.module.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+
+.section6_reviews__5GvVq {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    gap: 20px;
+    padding-bottom: 50px;
+    padding: 20px;
+
+
+}
+
+
+.section6_reviewCard__QxvEN {
+    flex: 1;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #F5E9E9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 170px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.section6_text__6wjFq {
+    font-size: 16px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #656565;
+}
+
+
+
+.section6_name__zgA4E {
+    font-size: 14px;
+    font-size: italic;
+    text-align: right;
+    padding-top: 10px;
+    /*margin-top: 10px; */
+
+}
+
+.section6_secName__riBFy {
+    font-size: 24px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section6_secName2__il_Z2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .section6_reviewCard__QxvEN {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+
+    .section6_reviews__5GvVq {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .section6_reviewCard__QxvEN {
+        flex: 1 1 100%;
+        max-width: 100%;
+        
+    }
+
+    .section6_reviews__5GvVq {
+        flex-direction: column;
+        align-items: center;
+    }
+}
